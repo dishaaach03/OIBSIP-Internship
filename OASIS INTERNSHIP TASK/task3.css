@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  url('to_do.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-position-y: top;
+    box-shadow: #161515;
+}
+
+
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background-color: transparent; 
+    box-shadow: #161515;
+}
+
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #bc8311;
+    box-shadow: 0px 0px 10px rgba(18, 18, 18, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    
+
+   
+}
+
+
+.title {
+    color: #f4f2f2;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.add-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #5757fb;
+    color: rgb(227, 209, 194);
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.tasks-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.task-list {
+    flex-grow: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: rgb(214, 194, 173);
+    box-shadow: 0px 0px 10px rgba(16, 16, 16, 0.2);
+    border-radius: 5px;
+    text-align: left;
+    font-size: 30px;
+}
+
+h2 {
+    color: #161515;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #f2ce57;
+}
+
+.list-item:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #4cce5d;
+}
